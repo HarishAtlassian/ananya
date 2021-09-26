@@ -1,11 +1,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-  int arr[5];
+  char arr[5] = {'a','b','c','d','e'};
   int itr;
-  for(itr = 0; itr < 5; itr++) {
-      arr[itr] = itr + 1;
-  }
   for(itr = 0; itr < 5; itr++) {
       cout << arr[itr];
   }
